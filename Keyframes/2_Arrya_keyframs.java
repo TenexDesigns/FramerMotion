@@ -30,4 +30,46 @@ Here's an explanation of what the code does and how it contrasts with the keyfra
    - Keyframes are suitable for complex animations with distinct states, and they are more versatile when you need precise control.
    - Using array values is often simpler and more suitable for animations where you want to smoothly transition between values without defining specific states.
 
-In summary, both approaches have their use cases. Keyframes are ideal for complex animations with discrete states, while using an array of values is suitable for continuous, smooth transitions between property values. The choice depends on the specific animation you want to achieve in your project.
+In summary, both approaches have their use cases. Keyframes are ideal for complex animations with discrete states, while using an array of values is suitable for continuous, 
+  smooth transitions between property values. The choice depends on the specific animation you want to achieve in your project.
+
+
+
+
+
+YOU CAN COMBINE THE FIRST FILES KEY FRAMW AND THIS FILES KEY FRMAE LIKE
+----------------------------------------------------------------------------------------------------------
+
+
+
+  
+    const customKeyframes = {
+
+        books:{ y: [0, -20, 20, -20, 0] }
+
+      };
+
+
+
+
+
+<motion.div
+  className="bg-blue-500 p-4 rounded-lg text-white"
+  animate="books"
+>
+  Animate using Array Values
+</motion.div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
