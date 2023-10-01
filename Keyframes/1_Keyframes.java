@@ -1,7 +1,10 @@
-Framer Motion allows you to create complex animations with keyframes, defining multiple animation steps between the `initial` and `animate` states. Keyframes can be used to achieve precise and customized animations for various properties. Here's how to use keyframes in Framer Motion with a Next.js app and Tailwind CSS, along with code samples:
+Framer Motion allows you to create complex animations with keyframes, defining multiple animation steps between
+  the `initial` and `animate` states. Keyframes can be used to achieve precise and customized animations for various properties.
+  Here's how to use keyframes in Framer Motion with a Next.js app and Tailwind CSS, along with code samples:
 
 **Step 1: Define Keyframes**
-Start by defining keyframes for the animation. Keyframes consist of multiple animation steps, and each step defines the properties of the component at a specific point in time.
+Start by defining keyframes for the animation. Keyframes consist of multiple animation steps, and each step defines the properties of the component at a specific point
+  in time.
 
 ```jsx
 const customKeyframes = {
@@ -28,7 +31,8 @@ Apply the defined keyframes to the component you want to animate. You can use th
 </motion.div>
 ```
 
-In this code, we've applied the `customKeyframes` to a `motion.div` element. We've specified that the animation should start with the "start" keyframe and end with the "end" keyframe. The `transition` prop sets the duration of the animation.
+In this code, we've applied the `customKeyframes` to a `motion.div` element. We've specified that the animation should start with the "start" keyframe 
+    and end with the "end" keyframe. The `transition` prop sets the duration of the animation.
 
 **Step 3: Import Components and Framer Motion**
 Ensure you import the necessary components and hooks from Framer Motion at the top of your file.
